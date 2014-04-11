@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="0dip"
+            android:layout_height="36dp"
+            android:layout_weight="1.86"
+            android:background="@drawable/roundedcorners"
+            android:ems="10"
+            android:text="@string/edit_text" >
+
+            <requestFocus />
+        </EditText>
+		<RadioGroup
+        android:id="@+id/radgrp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	        <RadioButton
+	            android:id="@+id/radioButton1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:text="@string/fahrenheit" />
+	
+	        <RadioButton
+	            android:id="@+id/radioButton2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:text="@string/celcius" />
+			</RadioGroup>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search" />
+    </LinearLayout>
+
+	 <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+       		android:textSize="35sp" 
+       		android:textColor="#FFFFFF"
+       		android:gravity="center"/>
+ 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp" 
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+    
+    <ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:gravity="center"/>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp" 
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp" 
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dip"
+        android:textSize="17sp" 
+        android:textColor="#FFFFFF"
+        android:gravity="left"/>
+    
+    <TableLayout android:layout_margin="12dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:id="@+id/tableLayout1" 
+        android:scrollbars="vertical" 
+        android:paddingBottom="3dip" 
+        android:stretchColumns="*"> 
+    </TableLayout> 
+    
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dip" 
+        android:textSize="17sp" 
+        android:textColor="#FFFFFF"
+        android:gravity="left"/>
+    
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dip"
+        android:textSize="17sp" 
+        android:textColor="#FFFFFF"
+        android:gravity="left"/>
+    
+</LinearLayout>

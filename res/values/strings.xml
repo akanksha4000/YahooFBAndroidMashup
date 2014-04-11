@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather App</string>
+    <string name="app_id">619538884755931</string>
+    <string name="action_settings">Settings</string>
+	<string name="fahrenheit">&#176;F</string>
+	<string name="celcius">&#176;C</string>
+	<string name="edit_text">Zip or Location</string>
+	<string name="search">Search</string>
+	<string name="current_weather">Post Current Weather</string>
+	<string name="weather_forecast">Post Weather Forecast</string>
+	<string name="share_current_weather">Share Current Weather</string>
+	<string name="share_weather_forecast">Share Weather Forecast</string>
+	<string name="cancel">Cancel</string>
+	<string name="postString">Post to Facebook</string>
+	<string name="publish">Publish</string>
+</resources>
